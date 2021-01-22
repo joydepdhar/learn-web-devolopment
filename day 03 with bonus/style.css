@@ -1,0 +1,25 @@
+body{
+    padding: 100px;
+}
+.container{
+    background-color: lightcoral;
+}
+div{
+    height: 100px;
+    width: 100px;
+}
+#first{
+    background-color: forestgreen;
+}
+#second{
+    background-color: greenyellow;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+#third{
+    background-color: brown;
+}
+h2{
+    color: cyan;
+}

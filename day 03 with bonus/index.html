@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    h1::before{
+        content: "HELLO ";
+        color: blueviolet;
+        font-size: 12px;
+        background-color: burlywood;
+    }
+    h1::after{
+        content: "Okey bye ";
+        color: burlywood;
+    }
+    h1{
+        color: goldenrod;
+    }
+    p::before{
+        counter-increment: section;
+        content: "Crush " counter(section) ": ";
+    }
+    .special-effect:hover{
+        color: indianred;
+        font-size: 80px;
+        background-color: aquamarine;
+    }
+    input:focus{
+        color: red;
+        font-size: 20px;
+        font-weight: 700px;
+    }
+    p:last-child{
+        color: violet;
+        background-color: indigo;
+    }
+</style>
+<body>
+    <h1>Pseudoclass part hover all element</h1>
+    <!--
+        pseudu class 
+        normal class
+        style  class
+    -->
+    <h1>Pseudo class</h1>
+    <h1>normal class</h1>
+    <h1 class="special-effect">style class</h1>
+    <!-- focus first child and last child-->
+    <input name="email" type="text">
+    <br>
+    <input name="password" type="text">
+    <ul>
+        <p>Alia </p>
+        <p>Dalia</p>
+        <p>Malia</p>
+        <p>kalia</p>
+        <p>Salia</p>
+        <p>jalia</p>
+        <p>gulia</p>
+        <p>nalia</p>
+    </ul>
+    <!-- visited program start like hover-->
+ <!--new pseudo element (before and after) xpress-->
+<!-- counter if li or paragraph you should use li tag -->
+<!--possition
+there are 4 type of possition 
+defult possition is static-->
+<section>
+    <h1>learning and climbing position high position </h1>
+</section>
+<section class="container">
+    <div id="first"></div>
+    <div id="second"></div>
+    <div id="third"></div>
+    <!-- css spicficity-->
+    
+</section>
+<h2>Hello world</h2>
+<h3>Hellow welcome</h3>
+</body>
+</html>
